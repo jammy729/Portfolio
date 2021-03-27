@@ -1,0 +1,31 @@
+/* JUMBOTRON */
+.name {
+    color: red;
+}
+
+.jumbotron {
+    background: url('.../src/pfp.jpg');
+    padding-left: 30px;
+    margin-bottom: 0;
+    height: 60vh;
+    position: relative;
+    background-color: aliceblue;
+}
+
+/* .intro {
+    padding-top: 0rem;
+    transform: translate(5%, 50%);
+} */
+
+.intro {
+    width: 30%;
+    height: 20%;
+    margin: auto;
+    position: absolute;
+    margin-left: 30px;
+}
+
+p.jumbo-text {
+    font-size: 3rem;
+    font-weight: bold;
+}
