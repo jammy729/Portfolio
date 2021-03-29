@@ -21,11 +21,11 @@
     width: 30%;
     height: 20%;
     margin: auto;
-    position: absolute;
     margin-left: 30px;
+    border-color: blue;
 }
 
-p.jumbo-text {
+p.jumbo-name, p.jumbo-coder, p.jumbo-ux {
     font-size: 3rem;
     font-weight: bold;
 }

@@ -2,6 +2,7 @@
 #logo {
     padding-left: 1em;
     float: left;
+    font-weight: bold;
 }
 
 .navbar {
@@ -23,7 +24,7 @@
     padding-bottom: 0.5em;
 }
 
-.container {
+.nav-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
