@@ -1,31 +1,76 @@
 /* JUMBOTRON */
 .name {
-    color: red;
+  color: red;
 }
 
 .jumbotron {
-    background: url('.../src/pfp.jpg');
-    padding-left: 30px;
-    margin-bottom: 0;
-    height: 60vh;
-    position: relative;
-    background-color: aliceblue;
+  background: url('.../src/pfp.jpg');
+  padding-left: 30px;
+  margin-bottom: 0;
+  height: 60vh;
+  position: relative;
+  background-color: aliceblue;
 }
-
-/* .intro {
-    padding-top: 0rem;
-    transform: translate(5%, 50%);
-} */
 
 .intro {
-    width: 30%;
-    height: 20%;
-    margin: auto;
-    margin-left: 30px;
-    border-color: blue;
+  width: 60%;
+  height: 20%;
+  margin: auto;
+  margin-left: 30px;
 }
 
-p.jumbo-name, p.jumbo-coder, p.jumbo-ux {
-    font-size: 3rem;
-    font-weight: bold;
+p.jumbo-name {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+p.jumbo-job {
+  font-size: 2rem;
+  font-weight: normal;
+}
+
+/* CARD */
+.card {
+  margin-top: 20px;
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+button:hover,
+a:hover {
+  opacity: 0.7;
+}
+
+.card-button {
+  color: white;
+}
+
+.card-container {
+  display: flex;
 }
