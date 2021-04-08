@@ -37,3 +37,31 @@ h3 {
     height: 100%;
     border: none;
 }
+
+
+.card-button {
+    color: white;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.work-card {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.card-main {
+    display: flex;
+    padding-left: 2rem;
+    padding-right: 2rem;
+
+}
+
+.card {
+    background-color: antiquewhite;
+    width: 40vw;
+}

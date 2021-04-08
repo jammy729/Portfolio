@@ -73,4 +73,11 @@ a:hover {
 
 .card-container {
   display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.work-card {
+  text-align: center;
+  margin: 0 auto;
 }

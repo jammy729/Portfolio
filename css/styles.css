@@ -57,3 +57,13 @@ h4 {
 .intext:hover {
     color: red;
 }
+
+footer {
+    margin-top: 5rem;
+    background-color: aliceblue;
+}
+
+.footer-nav {
+    margin-left: 5rem;
+    padding: 1rem 1rem;
+}

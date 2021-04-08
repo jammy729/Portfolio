@@ -1,6 +1,6 @@
 input[type=text] {
     outline: none;
-    width: 40vw;
+    width: 50%;
     margin-bottom: 0.5rem;
     padding: 0.8em 1em;
     box-sizing: border-box;
@@ -18,7 +18,7 @@ input[type=reset] {
     color: black;
     display: inline-block;
     cursor: pointer;
-    background-color: white;
+    background-color: transparent;
     padding: 8px 16px;
 }
 
@@ -38,5 +38,13 @@ input[type=reset]:hover {
 form {
     background-color: rgb(247, 247, 247);
     padding: 20px;
-    border-radius: 10px;
+    border-radius: 30px;
+}
+
+.contact-via{
+    margin: 10rem;
+}
+
+.email {
+    margin: 2rem;
 }
