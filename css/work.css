@@ -4,7 +4,7 @@
 
 .responsive-image {
     display: inline-block;
-    max-width: 100%;
+    width: 100%;
     height: auto;
 }
 
@@ -38,30 +38,97 @@ h3 {
     border: none;
 }
 
-
-.card-button {
-    color: white;
+.card-column {
+    float: left;
+    width: 50%;
+    margin-bottom: 16px;
+    padding: 0 8px;
 }
 
-.card-container {
+@media screen and (max-width: 800px) {
+    .card-column {
+        width: 100%;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 1640px) {
+    /* .card-column {
+        width: 100%;
+        /* display: block; */
+    
+
+    .card-workB {
+        width: 60%;
+    }
+}
+
+.card-work {
+    width: auto;
+    height: auto;
+}
+
+.row {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-wrap: wrap;
 }
 
-.work-card {
-    text-align: center;
-    margin: 0 auto;
+.column {
+    flex: 50%;
+    max-width: 50%;
 }
 
-.card-main {
+img {
+    width: 30%;
+    padding-top: 1rem;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.column img {
+    vertical-align: middle;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.cover {
+    opacity: 1;
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
-    padding-left: 2rem;
-    padding-right: 2rem;
-
+    width: 30%;
+    transition: 0.3s ease;
+    padding-bottom: 1rem;
 }
 
-.card {
-    background-color: antiquewhite;
-    width: 40vw;
+
+.cover:hover{
+    opacity: 0.3;
+}
+
+.tool h3{
+    margin-top: 3rem;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 780px){
+    .responsive-image {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50vw;
+    }
+}
+
+
+@media screen and (max-width: 550px){
+    .responsive-image, #spread {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 70vw;
+    }
 }

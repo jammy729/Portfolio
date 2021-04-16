@@ -15,41 +15,59 @@
     <link href="css/styles.css" rel="stylesheet">
     <link href="css/navbar.css" rel="stylesheet">
     <link href="css/responsive.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
 
 </head>
 
 <body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <a href="home.html" class="navbar-brand">JY.</a>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav">
+                <a href="home.html" class="nav-item nav-link active">Home</a>
+                <a href="about.html" class="nav-item nav-link">About Me</a>
+                <a href="work.html" class="nav-item nav-link">Work</a>
+                <a href="contact.html" class="nav-item nav-link">Contact Me</a>
+            </div>
+        </div>
+    </nav>
+
     <!-- NAVBAR -->
-    <div class="nav-container">
+    <!-- <div class="nav-container">
         <h1 id="logo"><a href="home.html" id="logo-link">JY.</a></h1>
         <nav class="navbar-top">
+            <span class="navbar-toggle" id="js-navbar-toggle">
+                <i class="fas fa-bars"></i>
+            </span>
             <ul class="navbar-ul">
                 <li class="navbar"><a href="home.html" class="nav-a">home</a></li>
                 <li class="navbar"><a href="about.html" class="nav-a">about me</a></li>
                 <li class="navbar"><a href="work.html" class="nav-a">work</a></li>
                 <li class="navbar"><a href="contact.html" class="nav-a">contact me</a></li>
-                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                    <i class="fa fa-bars"></i>
-                </a>
+                
             </ul>
         </nav>
-    </div>
+    </div> -->
 
     <!-- JUMBOTRON -->
     <div class="jumbotron">
         <div class="hero-image">
             <div class="intro">
                 <p class="jumbo-name"><a href="about.html" class="intext">James Yoo</a></p>
-                <p class="jumbo-job">Front-end Developer & UX Engineer</p>
+                <p class="jumbo-job">I am a Front-End Developer and a UX/UI Designer. </p>
+                <p class="jumbo-about">My passion is to build beautiful and minimal websites that are accessible </p>
             </div>
         </div>
     </div>
 
     <div class="card-container">
-        <div class="work-card">
-            <h2 id="work"> My Work</h2>
-        </div>
         <div class="card">
             <img src="src/workA/workA-cover.png" alt="John" style="width:100%">
             <h1>Work Title</h1>

@@ -1,4 +1,7 @@
-/* NAVBAR */
+/* NAVBAR
+* {
+    box-sizing: border-box;
+}
 #logo {
     padding-left: 1em;
     float: left;
@@ -65,6 +68,54 @@
     text-decoration: none;
 }
 
+.navbar-ul li {
+    text-align: center;
+
+}
+
+.navbar-toggle {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 24px;
+}
+
 .icon {
     display: none;
+}
+
+@media screen and (max-width: 850px) {
+    .navbar-top {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .navbar-ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+    .navbar-toggle {
+                display: none;
+            }
+} */
+
+.navbar-brand {
+    font-size: 2rem;
+}
+
+.navbar {
+    overflow: hidden;
+}
+
+.collapse {
+    float: right;
+}
+
+
+.navbar-nav a {
+    color: blue;
 }

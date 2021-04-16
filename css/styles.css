@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+}
 html,
 body {
     padding: 0;
@@ -67,3 +70,4 @@ footer {
     margin-left: 5rem;
     padding: 1rem 1rem;
 }
+
