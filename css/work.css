@@ -1,11 +1,20 @@
+
+
 #title-work {
+    margin-top: 2rem;
     font-weight: bold;
 }
 
 .responsive-image {
-    display: inline-block;
-    width: 100%;
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
     height: auto;
+}
+
+.flower {
+    width: 40%;
 }
 
 #spread {
@@ -15,6 +24,7 @@
 
 h3 {
     text-align: center;
+    max-width: 100%;
 }
 
 
@@ -99,7 +109,7 @@ img {
     margin-left: auto;
     margin-right: auto;
     display: flex;
-    width: 30%;
+    width: 60%;
     transition: 0.3s ease;
     padding-bottom: 1rem;
 }
@@ -107,6 +117,7 @@ img {
 
 .cover:hover{
     opacity: 0.3;
+    cursor: -webkit-grab, grab;
 }
 
 .tool h3{
@@ -130,5 +141,40 @@ img {
         margin-left: auto;
         margin-right: auto;
         width: 70vw;
+        max-width: 100%;
     }
 }
+
+.responsive-image-B {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+    max-width: 100%;
+}
+
+@media screen and (max-width:430px) {
+    .responsive-image-B {
+        width: 90vw;
+        height: auto;
+        display: block;
+        max-width: 100%;
+    }
+
+    #spread {
+        width: 100%;
+    }
+
+
+}
+
+.work-a {
+    margin-left: auto;
+    display: block;
+    margin-right: auto;
+}
+
+.tool {
+    text-align: left;
+}
+

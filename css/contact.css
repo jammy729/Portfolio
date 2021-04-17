@@ -1,12 +1,14 @@
 input[type=text] {
     outline: none;
-    width: 50%;
+    width: 100%;
     margin-bottom: 0.5rem;
     padding: 0.8em 1em;
     box-sizing: border-box;
     display: inline-block;
     border-radius: 11px;
 }
+
+
 
 input[type=submit],
 input[type=reset] {
@@ -18,7 +20,7 @@ input[type=reset] {
     color: black;
     display: inline-block;
     cursor: pointer;
-    background-color: transparent;
+    background-color: white;
     padding: 8px 16px;
 }
 
@@ -48,3 +50,13 @@ form {
 .email {
     margin: 2rem;
 }
+
+.col {
+    margin-top: 2rem;
+}
+
+#email {
+    font-weight: bolder;
+    color: rgb(22, 7, 241);
+}
+

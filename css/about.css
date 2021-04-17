@@ -1,9 +1,9 @@
+
 .content {
-    margin-top: 15rem;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    width: 70%;
+    width: 70vw;
 }
 
 .row {
@@ -11,5 +11,63 @@
 }
 
 .pfp {
-    width: 50%;
+    width: 40%;
+    padding-bottom: 2rem;
 }
+
+h2 {
+    width: 100vw;
+    height: 30vh;
+    max-width: 100%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media screen and (max-width:750px) {
+    .content {
+        width: 50vw;
+    }
+
+    .content h2 {
+        font-size: 1.5rem;
+    }
+
+    .pfp {
+        width: 40vw;
+    }
+}
+
+@media screen and (max-width:730px) {
+    .content {
+        display: block;
+        width: 90vw;
+    }
+
+    .content h2 {
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 1.5rem;
+        width: 80VW;
+    }
+
+    .pfp {
+        width: 40vw;
+    }
+}
+
+
+@media screen and (max-width:450px) {
+
+    .content h2 {
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 1.3rem;
+        width: 80VW;
+    }
+
+    .pfp {
+        width: 40vw;
+    }
+}
+

@@ -6,7 +6,11 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>JY Portfolio</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   <link href="css/template.css" rel="stylesheet">
 
 </head>
@@ -89,6 +93,12 @@
       <h2>Headings</h2>
       <h3>CSS selector:</h3>
       <p>#head1, #head2, #head3, #head4</p>
+      <code>&lt;h1&gt;&lt;/h1&gt;</code>
+      <code>&lt;h2&gt;&lt;/h2&gt;</code>
+      <code>&lt;h3&gt;&lt;/h3&gt;</code>
+      <code>&lt;h4&gt;&lt;/h4&gt;</code>
+
+
       <h3>Rendered element:</h3>
       <h1 id="head1">This is heading 1</h1>
       <h2 id="head2">This is heading 2</h2>
@@ -106,6 +116,10 @@
 
     <section>
       <h2>Bulleted Lists</h2>
+      <code>&lt;ul&gt;&lt;/ul&gt;</code>
+      <code>&lt;li&gt;&lt;/li&gt;</code>
+
+
       <ul>
         <li>This</li>
         <li>is</li>
@@ -116,6 +130,8 @@
 
     <section>
       <h2>Numbered Lists</h2>
+      <code>&lt;ol&gt;&lt;/ol&gt;</code>
+      <code>&lt;li&gt;&lt;/li&gt;</code>
       <ol>
         <li>This</li>
         <li>is</li>
@@ -136,21 +152,39 @@
       <h2>Main Navigation</h2>
 
       <h3>Sample code:</h3>
-      <code>&lt;nav id="navbar-top"&gt;</code> <br>
-      <code>&lt;ul&gt;</code> <br>
-      <code>&lt;li class="navbar">&lt;a href="#"" class="nav-a">Home&lt;/a>&lt;/li> <br>
-         &lt;li class="navbar">&lt;a href="#"" class="nav-a">About Me&lt;/a>&lt;/li> <br>
-         &lt;li class="navbar">&lt;a href="#"" class="nav-a">Work&lt;/a>&lt;/li></code> <br>
-      <code>&lt;/ul&gt;</code>
-      <h3>Rendered element:</h3>
-      <nav id="navbar-top">
-        <ul>
-          <li class="navbar"><a href="#"" class="nav-a">Home</a></li>
-          <li class="navbar"><a href="#"" class="nav-a">About Me</a></li>
-          <li class="navbar"><a href="#"" class="nav-a">Work</a></li>
+      <code>
+        &lt;nav class="navbar navbar-expand-md navbar-dark bg-dark"&gt;
+        &lt;a href="#" class="navbar-brand">JY.&lt;/a&gt;
+        &lt;button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse"&gt;
+          &lt;span class="navbar-toggler-icon">&lt;/span&gt;
+          &lt;/button&gt;
 
-        </ul>
-      </nav>
+          &lt;div class="collapse navbar-collapse justify-content-center" id="navbarCollapse"&gt;
+          &lt;div class="navbar-nav"&gt;
+          &lt;a href="home.html" class="nav-item nav-link">Home&lt;/a&gt;
+          &lt;a href="about.html" class="nav-item nav-link active">About Me&lt;/a&gt;
+          &lt;a href="work.html" class="nav-item nav-link">Work&lt;/a&gt;
+          &lt;a href="contact.html" class="nav-item nav-link">Contact Me&lt;/a&gt;
+          &lt;/div&gt;
+          &lt;/div&gt;
+          &lt;/nav&gt;
+      </code><
+      <h3>Rendered element:</h3>
+      <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <a href="#" class="navbar-brand">JY.</a>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-center" id="navbarCollapse">
+            <div class="navbar-nav">
+                <a href="home.html" class="nav-item nav-link">Home</a>
+                <a href="about.html" class="nav-item nav-link active">About Me</a>
+                <a href="work.html" class="nav-item nav-link">Work</a>
+                <a href="contact.html" class="nav-item nav-link">Contact Me</a>
+            </div>
+        </div>
+    </nav>
     </section>
 
   </section>

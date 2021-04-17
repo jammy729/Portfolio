@@ -29,7 +29,7 @@
             <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div class="collapse navbar-collapse" id="navbarCollapse">
+        <div class="collapse navbar-collapse justify-content-center" id="navbarCollapse">
             <div class="navbar-nav">
                 <a href="home.html" class="nav-item nav-link active">Home</a>
                 <a href="about.html" class="nav-item nav-link">About Me</a>
@@ -39,23 +39,6 @@
         </div>
     </nav>
 
-    <!-- NAVBAR -->
-    <!-- <div class="nav-container">
-        <h1 id="logo"><a href="home.html" id="logo-link">JY.</a></h1>
-        <nav class="navbar-top">
-            <span class="navbar-toggle" id="js-navbar-toggle">
-                <i class="fas fa-bars"></i>
-            </span>
-            <ul class="navbar-ul">
-                <li class="navbar"><a href="home.html" class="nav-a">home</a></li>
-                <li class="navbar"><a href="about.html" class="nav-a">about me</a></li>
-                <li class="navbar"><a href="work.html" class="nav-a">work</a></li>
-                <li class="navbar"><a href="contact.html" class="nav-a">contact me</a></li>
-                
-            </ul>
-        </nav>
-    </div> -->
-
     <!-- JUMBOTRON -->
     <div class="jumbotron">
         <div class="hero-image">
@@ -63,31 +46,32 @@
                 <p class="jumbo-name"><a href="about.html" class="intext">James Yoo</a></p>
                 <p class="jumbo-job">I am a Front-End Developer and a UX/UI Designer. </p>
                 <p class="jumbo-about">My passion is to build beautiful and minimal websites that are accessible </p>
+                <p> design, code, </p>
             </div>
+            <div class="work-display">
+                <div class="card">
+                    <img src="src/workA/workA-cover.png" alt="John" style="width:100%">
+                    <h1>Magazine Spread</h1>
+                    <button class="workBtn" onclick="window.location.href='/work-A.html'">See Work</button>
+                </div>
+        
+                <div class="card">
+                    <img src="src/workB/cover.png" alt="John" style="width:100%">
+                    <h1>Kinetic Typography</h1>
+                    <button class="workBtn" onclick="window.location.href='/work-B.html'">See Work</button>
+                </div>
+            </div>
+           
         </div>
     </div>
 
-    <div class="card-container">
-        <div class="card">
-            <img src="src/workA/workA-cover.png" alt="John" style="width:100%">
-            <h1>Work Title</h1>
-            <p>Brief Work Description</p>
-            <p><button><a href="work-A.html" class="card-button">See Work</a></button></p>
+    <footer>
+        <div class="footer-nav">
+            <a href="template.html">Styleguide</a>
         </div>
-
-        <div class="card">
-            <img src="src/workB/cover.png" alt="John" style="width:100%">
-            <h1>Work Title</h1>
-            <p>Brief Work Description</p>
-            <p><button><a href="work-B.html" class="card-button">See Work</a></button></p>
-        </div>
-    </div>
+    </footer>
 </body>
 
-<footer>
-    <div class="footer-nav">
-        <a href="template.html">Styleguide</a>
-    </div>
-</footer>
+
 
 </html>

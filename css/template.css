@@ -100,20 +100,42 @@ input[type=submit]:hover, input[type=reset]:hover {
 }
 
 .navbar {
-  outline: none;
-  display: inline;
-  border: none;
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
-.nav-a {
-  color: black;
+.navbar-brand {
+  font-size: 2rem;
+}
+
+.navbar-brand:hover {
+  color: red !important;
+}
+
+.nav-item.nav-link {
+  font-size: 1.2rem;
+  margin-left: 1.5rem !important;
+  margin-right: 1.5rem !important;
+  
+}
+
+.nav-item.nav-link:hover {
+  transition: all 0.3s ease;
+  border-radius: 20px;
+  border-left: 1px solid #3ca0e7;
+  border-right: 1px solid #3ca0e7;
   text-decoration: none;
-  font-size: 1.3em;
-  text-align: center;
-  padding-right: 1.5em;
-  padding-left: 1.5em;
-  padding-top: 0.5em;
-  padding-bottom: 0.5em;
+  font-weight: bold !important;
+}
+
+@media screen and (max-width: 800px) {
+  .nav-item.nav-link:hover {
+      transition: none;
+      font-weight: normal !important;
+      border-radius: 0%;
+      border-left: 0;
+      border-right: 0;
+  }
 }
 
 .container {
@@ -125,14 +147,6 @@ input[type=submit]:hover, input[type=reset]:hover {
   align-items: center;
 }
 
-.navbar a:hover {
-  transition: all 0.3s ease;
-  border-radius: 20px;
-  border-left: 2px solid #3ca0e7;
-  border-right: 2px solid #3ca0e7;
-  color: #333;
-  font-weight: bold;
-}
 
 /* 
   TEXT ELEMENTS -------------------

@@ -1,3 +1,7 @@
+* {
+  overflow-x: hidden;
+}
+
 /* JUMBOTRON */
 .name {
   color: red;
@@ -6,7 +10,7 @@
 .jumbotron {
   position: relative;
   width: 100vw;
-  background-color: aliceblue;
+  background-color: rgb(241, 247, 252);
 }
 
 .intro {
@@ -25,6 +29,7 @@ p.jumbo-about {
   font-size: 1.5rem;
   width: 100%;
 }
+
 p.jumbo-job {
   font-size: 3rem;
   font-weight: bold;
@@ -45,30 +50,22 @@ p.jumbo-job {
   font-size: 18px;
 }
 
-button {
-  border: none;
-  outline: 0;
+.workBtn {
   display: inline-block;
-  padding: 8px;
-  color: white;
-  background-color: #000;
-  text-align: center;
-  cursor: pointer;
-  width: 100%;
-  font-size: 18px;
-}
-
-a {
+  padding: 0.5em 0.75em;
+  color: #FFF;
+  background-color: #333;
+  border-radius: 0.25em;
   text-decoration: none;
-  font-size: 22px;
-  color: black;
+  -webkit-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;
 }
 
-button:hover,
-a:hover {
-  opacity: 0.7;
-}
+.workBtn:hover,
+.workBtn:focus {
+  background-color: #999;
 
+}
 .card-button {
   color: white;
 }
@@ -84,12 +81,11 @@ a:hover {
   margin: 0 auto;
 }
 
-
-
-@media screen and (max-width:850px){
+@media screen and (max-width:850px) {
   .jumbotron {
     width: 100vw;
   }
+
   p.jumbo-job {
     width: 90vw;
   }
@@ -99,11 +95,12 @@ a:hover {
   }
 }
 
-@media screen and (max-width:450px){
+@media screen and (max-width:450px) {
   .jumbotron {
     width: 100vw;
     height: 100%;
   }
+
   p.jumbo-job {
     width: 90vw;
     font-size: 1.3rem;
@@ -114,4 +111,16 @@ a:hover {
     height: auto;
     font-size: 1rem;
   }
+}
+
+.card {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: auto;
+}
+
+.work-display {
+  display: flex;
 }
